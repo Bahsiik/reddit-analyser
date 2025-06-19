@@ -2,3 +2,5 @@
 /.venv
 /data
 /nltk_data
+/demo
+__pycache__
