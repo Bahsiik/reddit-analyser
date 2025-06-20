@@ -1,5 +1,6 @@
 /.idea
 /.venv
+/venv311
 /data
 /nltk_data
 /demo
