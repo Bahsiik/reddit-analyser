@@ -50,7 +50,7 @@ class FastText:
 			sentences=documents,
 			vector_size=self.vector_size,
 			min_count=self.min_count,
-			workers=1,  # Single thread for consistency
+			workers=6,  # Single thread for consistency
 			seed=42,    # Reproducible results
 			min_n=3,    # Minimum subword length
 			max_n=6     # Maximum subword length
